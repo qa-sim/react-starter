@@ -3,6 +3,14 @@
 React Starter Template bootstraped using
 create-react-app with typescript template
 
+#### Getting Started
+
+> `yarn install` to install all dependencies.  
+> `yarn start` to start the dev server.  
+> 
+> Application should be available running on http://localhost:3000 
+
+
 #### Features
 
 - Yarn as Package Manager
@@ -32,7 +40,15 @@ create-react-app with typescript template
     - utils
   - features
     - app
+      - reducers
+      - types.ts
     - auth
+      - components
+      - constants
+      - containers
+      - reducers
+      - thunks
+      - utils
     - landing
   - store
     - hooks
